@@ -1,4 +1,3 @@
-📘 React — Day 1 (Baby Steps / Beginner Start)
 ✅ What I Learned Today
 
 React is a JavaScript library used to build user interfaces.
@@ -7,7 +6,7 @@ React helps make fast, dynamic, and component-based UI.
 
 We use Vite to create and run React apps easily.
 
-✅ Commands I Used Today
+💻 Commands I Used Today
 1️⃣ Check Node.js & npm version
 node -v
 npm -v
@@ -24,8 +23,7 @@ npm install
 5️⃣ Run the React project
 npm run dev
 
-📂 Project Folder Structure (Vertical / Tree View)
-
+📂 Project Folder Structure 
 my-react-app/
 
 ├── index.html
@@ -62,7 +60,7 @@ npm run dev
 
 
 Open http://localhost:5173/
- in your browser and you will see:
+ in your browser. You should see:
 
 Hello World!
 
