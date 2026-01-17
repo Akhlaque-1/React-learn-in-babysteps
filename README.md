@@ -25,6 +25,7 @@ npm install
 npm run dev
 
 📂 Project Folder Structure (Vertical / Tree View)
+
 my-react-app/
 
 ├── index.html
@@ -34,15 +35,36 @@ my-react-app/
 ├── README.md
 
 └── src/
-
     ├── App.jsx
 
     ├── main.jsx
     
     └── assets/
 
+🖥️ Hello World Example
 
-✅ This will now display vertical/tree structure properly on GitHub.
+Open src/App.jsx and replace the code with:
+
+function App() {
+  return (
+    <>
+      <h1>Hello World!</h1>
+    </>
+  );
+}
+
+export default App;
+
+
+Save the file and make sure your dev server is running:
+
+npm run dev
+
+
+Open http://localhost:5173/
+ in your browser and you will see:
+
+Hello World!
 
 🧠 Simple Understanding from Day 1
 
