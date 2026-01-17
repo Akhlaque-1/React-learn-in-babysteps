@@ -1,4 +1,4 @@
-📘 React — Day 1 (Baby Steps / Beginner Start)
+React — Day 1 (Baby Steps / Beginner Start)
 ✅ What I Learned Today
 
 React is a JavaScript library used to build user interfaces.
@@ -26,13 +26,16 @@ npm run dev
 
 📂 Project Folder Structure (Vertical / Tree View)
 my-react-app/
-  ├── index.html
-  ├── package.json
-  ├── README.md
-  ├── src/
-  │   ├── App.jsx
-  │   ├── main.jsx
-  │   └── assets/
+├── index.html
+├── package.json
+├── README.md
+└── src/
+    ├── App.jsx
+    ├── main.jsx
+    └── assets/
+
+
+✅ This will show as a proper vertical tree on GitHub.
 
 🧠 Simple Understanding from Day 1
 
