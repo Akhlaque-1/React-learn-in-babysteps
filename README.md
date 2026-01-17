@@ -1,3 +1,4 @@
+📘 React — Day 1 (Baby Steps / Beginner Start)
 ✅ What I Learned Today
 
 React is a JavaScript library used to build user interfaces.
@@ -24,6 +25,7 @@ npm install
 npm run dev
 
 📂 Project Folder Structure 
+
 my-react-app/
 
 ├── index.html
@@ -33,11 +35,12 @@ my-react-app/
 ├── README.md
 
 └── src/
-    ├── App.jsx
 
-    ├── main.jsx
-    
-    └── assets/
+  ├── App.jsx
+
+  ├── main.jsx
+
+  └── assets/
 
 🖥️ Hello World Example
 
@@ -54,15 +57,13 @@ function App() {
 export default App;
 
 
-Save the file and make sure your dev server is running:
+Run the dev server:
 
 npm run dev
 
 
 Open http://localhost:5173/
- in your browser. You should see:
-
-Hello World!
+ in your browser. You will see Hello World!
 
 🧠 Simple Understanding from Day 1
 
@@ -73,3 +74,5 @@ main.jsx → connects React to the browser
 npm run dev → starts local development server
 
 Default URL → http://localhost:5173/
+
+🎯 D
