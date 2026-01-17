@@ -9,19 +9,25 @@ We use Vite to create and run React apps easily.
 
 💻 Commands I Used Today
 1️⃣ Check Node.js & npm version
+
 node -v
+
 npm -v
 
 2️⃣ Create a new React project using Vite
+
 npm create vite@latest my-react-app --template react
 
 3️⃣ Go inside the project folder
+
 cd my-react-app
 
 4️⃣ Install all node modules
+
 npm install
 
 5️⃣ Run the React project
+
 npm run dev
 
 📂 Project Folder Structure 
@@ -63,6 +69,7 @@ npm run dev
 
 
 Open http://localhost:5173/
+
  in your browser. You will see Hello World!
 
 🧠 Simple Understanding from Day 1
