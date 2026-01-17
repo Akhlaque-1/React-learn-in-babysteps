@@ -26,12 +26,19 @@ npm run dev
 
 📂 Project Folder Structure (Vertical / Tree View)
 my-react-app/
+
 ├── index.html
+
 ├── package.json
+
 ├── README.md
+
 └── src/
+
     ├── App.jsx
+
     ├── main.jsx
+    
     └── assets/
 
 
