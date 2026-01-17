@@ -1,4 +1,4 @@
-React — Day 1 (Baby Steps / Beginner Start)
+📘 React — Day 1 (Baby Steps / Beginner Start)
 ✅ What I Learned Today
 
 React is a JavaScript library used to build user interfaces.
@@ -35,7 +35,7 @@ my-react-app/
     └── assets/
 
 
-✅ This will show as a proper vertical tree on GitHub.
+✅ This will now display vertical/tree structure properly on GitHub.
 
 🧠 Simple Understanding from Day 1
 
