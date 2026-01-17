@@ -24,7 +24,7 @@ npm install
 5️⃣ Run the React project
 npm run dev
 
-📂 Project Folder Structure (Basic Understanding)
+📂 Project Folder Structure (Vertical / Tree View)
 my-react-app/
   ├── index.html
   ├── package.json
