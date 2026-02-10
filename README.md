@@ -253,4 +253,47 @@ If this repository helps you:
 * ⭐ Star the repo
 * 🤝 Share with friends
 
-Happy Coding 🚀
+✅ Day 4: useState & useEffect Hooks
+
+**Topics:**
+- useState: Manage state in functional components
+- useEffect: Handle side effects like fetching data or updating DOM
+- Combine both hooks in one component
+
+**Example: Counter + Fetch Users**
+
+```javascript
+import { useState, useEffect } from "react";
+
+function Day4Practice() {
+  // useState example
+  const [count, setCount] = useState(0);
+
+  // useEffect example (fetch users)
+  const [users, setUsers] = useState([]);
+
+  useEffect(() => {
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then(res => res.json())
+      .then(data => setUsers(data));
+  }, []); // empty array = run only once
+
+  return (
+    <div style={{ padding: "20px", fontFamily: "Arial" }}>
+      <h2>Counter</h2>
+      <p>Count: {count}</p>
+      <button onClick={() => setCount(count + 1)}>Increment</button>
+
+      <h2>Users List</h2>
+      <ul>
+        {users.map(user => (
+          <li key={user.id}>{user.name}</li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+export default Day4Practice;
+
+
